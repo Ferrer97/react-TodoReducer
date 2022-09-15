@@ -1,0 +1,95 @@
+.todoContainer {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 0 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.todoCreateForm {
+  display: flex;
+  gap: 5px;
+}
+
+.todoInput {
+  flex-grow: 1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid 1px #999;
+}
+
+.buttonCreate {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(26, 76, 169);
+  color: white;
+  padding: 10px 20px;
+}
+
+.todosContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.todo {
+  padding: 5px;
+  list-style: none;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: -40px;
+}
+
+.todoTitle {
+  flex: 1;
+  font-size: 20px;
+}
+
+.todoInfo {
+  display: flex;
+  gap: 5px;
+}
+.todoUpdateForm {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.button {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(72, 122, 221);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.buttonDelete {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(169, 26, 26);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.buttonUpdate {
+  border: none;
+  border-radius: 3px;
+  background-color: #00bb2d;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
